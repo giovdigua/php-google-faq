@@ -15,7 +15,7 @@ header {
     height:87px;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-   
+   background-color: white;
 
 }
 nav #logoSection img{
@@ -54,4 +54,9 @@ main {
     width: 80%;
     margin: 0 auto;
     
+}
+
+main .query {
+    font-size: 24px;
+    font-weight: bold;
 }
