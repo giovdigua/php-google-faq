@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header {
+    position: fixed;
+    height:87px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+   
+
+}
+nav #logoSection img{
+
+    margin: 15px;
+}
+
+nav #logoSection span {
+   display: inline-block;
+    vertical-align: top;
+    margin-top: 19px;
+
+}
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding-bottom: 8px;
+    margin: 0 10px;
+}
+
+nav ul li.active{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+nav ul li#account{
+    float: right;
+    margin-right: 20px;
+}
+main {
+   padding-top: 160px;
+   height: calc(100% - 150px);
+    width: 80%;
+    margin: 0 auto;
+    
+}
